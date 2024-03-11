@@ -41,15 +41,14 @@ input {
   padding: 13px;
   border-radius: 5px;
   outline: none;
-  
 }
-input::placeholder{
-    color: #000000;
-    font-style: italic;
+input::placeholder {
+  color: #000000;
+  font-style: italic;
 }
 
-input:focus{
-    border: 2px solid hsl(240, 74%, 63%);
+input:focus {
+  border: 2px solid hsl(240, 74%, 63%);
 }
 
 /*checkbox*/
@@ -76,9 +75,9 @@ button {
   border: 2px solid hsl(240, 74%, 63%);
 }
 
-button:hover{
-    background-color: transparent;
-    border: 2px solid hsl(240, 74%, 63%);
-    color: aliceblue;
-    cursor: pointer;
+button:hover {
+  background-color: transparent;
+  border: 2px solid hsl(240, 74%, 63%);
+  color: aliceblue;
+  cursor: pointer;
 }
